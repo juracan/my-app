@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { EzComponentsModule } from 'ngx-ez-components';
+import { NgxEzComponentsModule } from 'ngx-ez-components';
+import { NgxEzComp2Module } from 'ngx-ez-comp2'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -13,7 +14,8 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    EzComponentsModule
+    NgxEzComponentsModule,
+    NgxEzComp2Module
   ],
   providers: [],
   bootstrap: [AppComponent]
